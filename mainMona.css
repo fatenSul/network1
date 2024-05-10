@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #088181;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+/* Additional styles for the <p1> tag */
+p1 {
+    font-style: italic;
+    color: #777;
+}
+
+
+.back-btn {
+    padding: 10px 20px;
+    background-color: #007bff96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    background-color: #7aaadd;
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('http://localhost:6060/background.jpg');
+}
+
+.proj{
+    padding: 20px;
+    position:fixed;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(145, 56, 56);
+}
+
+
+
+
+
+.clr{
+    clear:both
+}
+
+
+.container{
+    width:80%;
+    height: 100%;
+    margin:auto;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #feffff;
+    z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+
+.logo{
+    float: left;
+    margin-top: 5px;
+
+}
+.logo img{
+    width:50%;
+}
+
+
+.navbar .list{
+    float:right;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+
+
+.portofolio_items a{
+    text-decoration: none; 
+
+}
+
+.list ul li{
+    float: left ;
+
+}
+
+
+.Portfolio {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 50px;
+    background-color:#58a3a386;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 780px 280px;
+}
+
+.product{
+    padding: 30px;
+}
+
+.Portfolio img {
+    width: 350px;
+    height: 350px;
+    display: block;
+}
+
+
+.product_product1{
+    margin-top:180px ;
+    padding: 40px;
+    background-color: #eefbfb;
+}
+.product_product3{
+    margin-top:180px ;
+    padding: 40px;
+    background-color: #eefbfb;
+}
+
+.product_product3 img{
+    width: 300px;
+}

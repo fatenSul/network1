@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mona Dweikat's page</title>
+    <link rel="stylesheet" href="mainMona.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HI There, I am Faten Sultan</h1>
+        <p> I am 22 years old </p>
+        <p1>I am a Computer Engineering Student with a universal ID: 1202750 </p1>
+        <h2>Some of my projects are:</h2>
+        <li>Computer Networks Project</li>
+        <li>Computer Architecture Project</li>
+        <li>Real Projects</li>
+        <li>DSP project</li>
+        <li>Front End Projects using react , javascript, html ,css</li>
+        
+        
+        <h2>My hobbies are</h2>
+        <li>coding</li>
+        <li>developing website</li>
+        
+        <h1>Image Viewer</h1>
+        <form id="imageForm">
+            <label for="imageName">Enter "faten" to see my Image:</label>
+            <input type="text" id="imageName" name="imageName">
+            <button type="submit">Show Image</button>
+        </form>
+        <div id="imageContainer"></div>
+        <script>
+            const form = document.getElementById('imageForm');
+            const imageContainer = document.getElementById('imageContainer');
+    
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const imageName = form.elements['imageName'].value;
+                const imageUrl = `./assets/${imageName}.png`; // Change path as needed
+                const imageElement = `<img src="${imageUrl}" alt="${imageName}" style="width: 300px; height: auto;">`; // Set width to 300px (adjust as needed)
+                imageContainer.innerHTML = imageElement;
+            });
+        </script>
+        <button class="back-btn" onclick="window.location.href = 'index.html';">Back to Main Page</button>
+
+
+    </div>
+
+</body>
+</html>
